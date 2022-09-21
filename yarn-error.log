@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/jonhoward/.nvm/versions/node/v11.15.0/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js
+
+PATH: 
+  /Users/jonhoward/.nvm/versions/node/v11.15.0/bin:/Library/Apple/usr/bin:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  11.15.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND npm.apple.com npm.apple.com:443
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:58:26)
+
+npm manifest: 
+  {
+    "name": "nextjs-course",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "10.0.6",
+      "react": "17.0.1",
+      "react-dom": "17.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
